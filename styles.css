@@ -1,0 +1,60 @@
+body {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 50px auto 20px;
+}
+
+p {
+  visibility: hidden;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 140px;
+  margin: 0;
+  line-height: 150px;
+}
+
+.contain {
+  width: 70%;
+  margin: 70px auto 0;
+}
+
+.btn {
+  margin: -4px;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  border: 5px solid white;
+}
+
+.r0 {
+  border-top: none;
+}
+
+.r2 {
+  border-bottom: none;
+}
+
+.c0 {
+  border-left: none;
+}
+
+.c2 {
+  border-right: none;
+}
+
+.clicked {
+  visibility: visible;
+}
